@@ -1,0 +1,6 @@
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\obj\Release\tiDBAccess.csprojResolveAssemblyReference.cache
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\bin\Release\tiDBAccess.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\bin\Release\tiDBAccess.pdb
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\bin\Release\mysql.data.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\obj\Release\tiDBAccess.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\obj\Release\tiDBAccess.pdb

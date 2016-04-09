@@ -1,0 +1,16 @@
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\bin\Debug\tiDBAccess.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\bin\Debug\tiDBAccess.pdb
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\bin\Debug\mysql.data.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\obj\Debug\tiDBAccess.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\tiDBAccess\tiDBAccess\obj\Debug\tiDBAccess.pdb
+E:\PI2016\DBAccess\bin\Debug\tiDBAccess.dll
+E:\PI2016\DBAccess\bin\Debug\tiDBAccess.pdb
+E:\PI2016\DBAccess\obj\Debug\DBAccess.csprojResolveAssemblyReference.cache
+E:\PI2016\DBAccess\obj\Debug\tiDBAccess.dll
+E:\PI2016\DBAccess\obj\Debug\tiDBAccess.pdb
+C:\Users\vhoye\OneDrive\programas\Csharp\PI2016\DBAccess\bin\Debug\DBAccess.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\PI2016\DBAccess\bin\Debug\DBAccess.pdb
+C:\Users\vhoye\OneDrive\programas\Csharp\PI2016\DBAccess\bin\Debug\mysql.data.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\PI2016\DBAccess\obj\Debug\DBAccess.csprojResolveAssemblyReference.cache
+C:\Users\vhoye\OneDrive\programas\Csharp\PI2016\DBAccess\obj\Debug\DBAccess.dll
+C:\Users\vhoye\OneDrive\programas\Csharp\PI2016\DBAccess\obj\Debug\DBAccess.pdb
