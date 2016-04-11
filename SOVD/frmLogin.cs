@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Mngrs.External_Classes;
 using Mngrs;
+using DBAccess.Model;
 using DBAccess;
 using System.Windows.Forms;
 
@@ -42,13 +43,23 @@ namespace SOVD
         {
             AccountsDAO accountsDao = new AccountsDAO();
             DataTable table = accountsDao.Select_All();
+            if (table.Rows.Count == 0)
+            {
+                accountsDao.insert(new Account()
+                {
+                    Username = CryptMngr.Encrypt("admin"),
+                    Password = CryptMngr.Encrypt("admin"),
+                    Account_type = (int)Account.account_types.admin
+                });
+                table = accountsDao.Select_All();
+            }
             bool didFind = false;
             DataRow account = table.NewRow();
 
             foreach (DataRow item in table.Rows)
             {
-                if (item["username"].ToString() == txtUsername.Text &&
-                    item["password"].ToString() == txtPassword.Text)
+                if (CryptMngr.Decrypt(item["username"].ToString()) == txtUsername.Text &&
+                    CryptMngr.Decrypt(item["password"].ToString()) == txtPassword.Text)
                 {
                     account = item;
                     didFind = true;

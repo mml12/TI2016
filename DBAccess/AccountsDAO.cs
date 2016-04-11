@@ -13,5 +13,11 @@ namespace DBAccess
         {
             return loadTable("SELECT id_accounts, username, password, account_type FROM accounts;");
         }
+
+        public void insert(Model.Account account)
+        {
+            loadTable("Insert into accounts(username, password, account_type) "
+                + "values('" + account.Username + "','" + account.Password + "','" + account.Account_type + "')");
+        }
     }
 }

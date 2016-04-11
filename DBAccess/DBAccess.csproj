@@ -45,9 +45,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountsDAO.cs" />
+    <Compile Include="ClienteDAO.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="DAO.cs" />
     <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Cliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

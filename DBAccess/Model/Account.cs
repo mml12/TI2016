@@ -8,18 +8,18 @@ namespace DBAccess.Model
 {
     public class Account
     {
-        int id_accounts;
-        string username, password, accrount_type;
+        int id_accounts, account_type;
+        string username, password;
 
         public enum account_types
         {
-            admin, grent, func, client
+            admin = 3, gerente = 2, funcionario = 1, cliente = 0
         }
 
-        public string Accrount_type
+        public int Account_type
         {
-            get { return accrount_type; }
-            set { accrount_type = value; }
+            get { return account_type; }
+            set { account_type = value; }
         }
 
         public int Id_accounts
