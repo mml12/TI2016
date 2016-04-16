@@ -20,6 +20,11 @@ namespace SOVD
             panelVibility(new Control());
         }
 
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            tsmiAccountName.Text = CryptMngr.Decrypt(account["username"].ToString());
+        }
+
         /// <summary>
         /// Analisa se a conta logada tem o nivel de acesso que vc esta pedindo
         /// </summary>
@@ -93,7 +98,7 @@ namespace SOVD
 
         private void btnPnl2_Click(object sender, EventArgs e)
         {
-
+            pcpCall();
         }
         #endregion
 
@@ -166,6 +171,13 @@ namespace SOVD
                 default:
                     break;
             }
+        }
+        #endregion
+
+        #region "pnlCadProd"
+        private void pcpCall()
+        {
+            panelVibility(pnlCadProd);
         }
         #endregion
     }
